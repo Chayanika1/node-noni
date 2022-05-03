@@ -8,6 +8,9 @@ app.use(express.json());
 app.get('/',(req,res)=>{
     res.send('hello world')
 })
+app.get('/home',(req,res)=>{
+    res.send('hello world mama')
+})
 app.listen(port,()=>{
     console.log("listening to port")
 })
